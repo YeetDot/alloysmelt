@@ -1,0 +1,44 @@
+body {
+  margin:0px;
+  background-image: url(img/background.png);
+  font-family: 'da_pandoraregular';
+}
+
+@font-face {
+  font-family: 'da_pandoraregular';
+  src: url('fonts/dapandora-regular-webfont.eot');
+  src: url('fonts/dapandora-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/dapandora-regular-webfont.woff2') format('woff2'),
+       url('fonts/dapandora-regular-webfont.woff') format('woff'),
+       url('fonts/dapandora-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ul {
+  top: 0%;
+  left: 0%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  margin: 5px;
+  color: white;
+  display: inline;
+  list-style-type: none;
+}
+
+#rsep {
+  width: 15px;
+  height: 100%;
+  background-image: url(img/seperator.png);
+  left: 33%;
+  top: 0;
+  z-index: -1;
+  position: absolute;
+}
